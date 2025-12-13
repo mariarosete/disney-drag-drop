@@ -103,7 +103,7 @@ El proyecto consiste en un **juego interactivo** donde el usuario debe asociar c
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/mariarosete/REPO_AQUI.git
+   git clone https://github.com/mariarosete/disney-drag-drop.git
    ```
 
 
