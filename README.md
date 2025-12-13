@@ -1,6 +1,6 @@
 # 🎮 ¿Quién es este personaje de Disney? – Drag & Drop Game (HTML · CSS · JavaScript)
 
-![Banner Juego Disney](https://github.com/mariarosete/REPO_AQUI/blob/main/screenshots/banner.png?raw=true)
+![Banner Juego Disney](https://github.com/mariarosete/disney-drag-drop/blob/main/screenshots/disney.png?raw=true)
 
 Proyecto frontend desarrollado con **HTML, CSS y JavaScript (Vanilla)**, centrado en la implementación de **Drag & Drop**, lógica de juego, carga dinámica de datos y experiencia de usuario.
 
