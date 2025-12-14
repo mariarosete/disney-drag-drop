@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --top-escondido: -3000px;
+    --color-boton: #C36A62;
+}
+
+body {
+    background-image: url("./imagenes/CastilloDisney.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    margin: 30px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 38px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 10px; 
+}
+
+/*CONTENEDOR GLOBAL*/
+.global{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 75vh;
+}
+.contenedor{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /*CENTRAR*/
+}
+
+/* INICIO DEL JUEGO*/
+.inicio h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin: 30px;
+    color: var(--color-boton);
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/*SECCIÓN INICIO (DESCRIPCIÓN DEL JUEGO) */
+.inicio {
+    position: absolute;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.7rem;
+    text-align: center;
+    padding: 35px;
+    width: 900px;
+    height: 580px;
+    box-shadow: 5px 12px 12px -6px rgba(0, 0, 0, 0.5);
+}
+.mensaje-victoria{
+    
+    top: 60%;
+    left: 60%;
+    transform: translate(-60%, -60%);
+    position: absolute;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.7rem;
+    text-align: center;
+    padding: 35px;
+    width: 380px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 5px 12px 12px -6px rgba(0, 0, 0, 0.5);
+}
+/* ESCONDEMOS LOS BOTONES INICIALMENTE */
+.reiniciar, .info{
+    position: relative;
+    top: var(--top-escondido);
+    width: 50%;
+}
+/* DIV DEL BOTÓN (INICIAR JUEGO) */
+.boton-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 15vh;
+}
+/********************************************************************/
+/* BOTÓN (INICIAR JUEGO) */
+.boton {
+    font-size: 18px;
+    padding: 15px 30px;
+    color: white;
+    font-weight: bold;
+    background-color: var(--color-boton);
+    border: 3px solid white; 
+    border-radius: 5px; 
+    cursor: pointer;
+    text-decoration: none;
+}
+.boton:hover {
+    color: #292b2c;
+    font-weight: bold;
+    
+}
+
+/* DIV PARA EL BOTÓN REINICIO */
+.reinicio {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+/* BOTÓN REINICIO */
+.reinicio i {
+    font-size: 3.5em;
+    color: white;
+    margin: 0 75px;
+    transition: margin-top .5s ease;
+}
+.reinicio i:hover {
+    color: var(--color-boton);
+}
+
+/* BOTÓN FICHAS (+INFO) */
+button {
+    display: block;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem auto 0 auto;
+    text-decoration: none;
+    background-color: var(--color-boton);
+    border-radius: 2px;
+    border: 0;
+    text-align: center;
+}
+
+button:hover {
+    color: #292b2c;
+    font-weight: bold;
+}
+/****************************************************************************/
+
+/* SECTION JUEGO */
+.juego {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    gap: 20px;  
+    top: var(--top-escondido);
+    transition: top 2s ease;
+}
+/* PANEL DE LA IZQUIERDA DONDE VAN LAS IMAGENES Y NOMBRES */
+.resultado {
+    max-width: 45vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 480px;
+    height: 650px; 
+    border-radius: 8px;    
+}
+
+.nombres,
+.imagenes,
+.opciones {
+    max-width: 43vw;
+    height: 66vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;   
+}
+
+.nombres h1 {
+    font-size: 2vw; 
+}
+.imagenes div {
+    border: 2px solid white;
+    box-shadow: 0 10px 12px -4px rgba(69, 69, 69, 1); 
+    border-radius: 8px;  
+}
+.nombres div{
+    height: 150px;
+    width: 200px;
+    margin: 7px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    box-shadow: 0 10px 12px -4px rgba(69, 69, 69, 1);
+    border-radius: 8px; 
+}
+/* PANEL DE LA DERECHA DONDE SALEN LOS NOMBRES DE LOS PERSONAJES */
+.opciones div {
+    height: 150px;
+    width: 200px;
+    margin: 8px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-boton);
+    box-shadow: 0 10px 12px -4px rgba(69, 69, 69, 1);
+    border: 2px solid white;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, sans-serif; 
+    border-radius: 8px; 
+}
+
+.imagen-personaje,
+.nombre-personaje {
+    height: 150px;
+    width: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+.nombre-opcion:hover {
+    font-size: 25px;
+}
+
+/******ESTILOS PARA FICHAS CON INFO DE LOS PERSONAJES************************************/
+
+.info-personajes {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1.2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 304px); 
+    grid-auto-rows: 240px;
+    justify-content: center;
+    grid-gap: 1rem;
+
+    /*separación entre filas  columnas*/
+    row-gap: 80px; 
+    column-gap: 10px;
+    /***********************************/
+    width: 83%;
+    margin: 420px auto 0; /* SEPARARLO DE ARRIBA*/
+    position: relative;
+    top: -3000px;
+    transition: top 2s ease;
+    transform-style: preserve-3d;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.rotate-container {
+    position: relative;  
+}
+
+.rotate-container .ficha-front,
+.rotate-container .ficha-back {
+    background-color: #FFF;
+    border: 1px solid rgba(169, 169, 169, 0.5);
+    border-radius: 0.25rem;
+    width: 90%;
+    height: 125%;
+    backface-visibility: hidden;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    transition: transform .5s linear 0s;
+}
+
+.rotate-container .ficha-front {
+    transform: perspective(900px) rotateY(0deg);
+    border-radius: 8px;
+}
+
+.rotate-container .ficha-back {
+    transform: perspective( 900px) rotateY(180deg);
+}
+/* TÍTULO FICHA */
+.rotate-container h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.75rem 0;
+    background-color: var(--color-boton);
+    color:white;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.5); 
+    border-radius: 4px;
+}
+
+.rotate-container .ficha-front img {
+    width: 100%;   
+}
+
+.rotate-container .ficha-back p {
+    font-size: 0.9rem;
+    letter-spacing: 0.02rem;
+    line-height: 1.2;
+    color: #292b2c;
+    text-align: justify;
+    padding: 10px 15px;
+}
+
+/********CLASES PARA GIRAR TARJETAS CON EVENTO CLICK**************************************/
+
+.rotate-container .rotar-ficha-front {
+    transform: perspective(1600px) rotateY(-180deg);
+}
+
+.rotate-container .rotar-ficha-back {
+    transform: perspective(1600px) rotateY(0deg);
+}
+
+.establece-scroll {
+    overflow-y: hidden;
+}
+
+

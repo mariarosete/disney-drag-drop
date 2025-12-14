@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes de Disney</title>
+
+    
+    <script src="https://kit.fontawesome.com/a627cec02c.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="./imagenes/icono.png"/>
+    <link rel="stylesheet" href="disney.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="./disney.js" defer></script>
+   
+</head>
+<body>
+    <header>
+        <h1>¿Quién es este personaje de Disney?</h1>
+    </header>
+    
+    <div class="global">
+        <div class="reinicio">
+            <i class="fas fa-images reiniciar"></i>
+            <i class="fa-solid fa-circle-question info"></i>
+        </div>
+        <div class="contenedor">
+            <section class="juego">
+                <div class="resultado"> 
+                    <div class="imagenes"></div>
+                    <div class="nombres"></div>
+                </div>
+                <div class="opciones"></div>
+            </section>
+            <section class="inicio">
+                <h1>Bienvenido al Juego</h1><br> 
+                <p> Bienvenido al encantador juego de adivinar personajes de Disney!<br><br> En el panel izquierdo, cuatro imágenes aleatorias te desafiarán con la magia de los personajes Disney. Cada reinicio trae una nueva combinación.
+
+                    En el panel derecho, 12 contenedores esperan pacientemente los nombres de cuatro personajes. Tu misión es arrastrar con habilidad los nombres a sus lugares correctos.
+                    
+                    Para momentos de incertidumbre, el botón de ayuda (?) desvelará información breve y encantadora sobre los personajes.<br> ¡Sumérgete en esta aventura donde la magia y la diversión se encuentran!<br><br> ¡Que comience la emoción Disney!</p>
+                <div class="boton-div">
+                    <button class="boton">Iniciar Juego</button>
+                </div>
+            </section>
+            <section class="info-personajes"></section>
+        </div>
+    </div>
+
+    <script>
+        function rotarFicha(e) {
+            // Buscar el contenedor de la ficha
+            var parent = e.closest(".rotate-container");
+
+            // Toggle las clases para rotar la ficha
+            parent.children[0].classList.toggle("rotar-ficha-back");
+            parent.children[1].classList.toggle("rotar-ficha-front");
+        }
+    </script>
+    
+</body>
+</html>
+
+

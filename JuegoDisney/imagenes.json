@@ -1,0 +1,102 @@
+[{
+    "id": "01",
+    "nombre": "Alicia",
+    "imagen":"imagenes/alicia.jpg",
+    "info": "Alicia es la protagonista de la película de Disney Alicia en el País de las Maravillas, lanzada en 1951. La película fue dirigida por Clyde Geronimi, Hamilton Luske y Wilfred Jackson, y es una adaptación animada del clásico literario de Lewis Carroll."
+
+},
+
+{
+    "id": "02",
+    "nombre": "Ariel",
+    "imagen":"imagenes/ariel.jpg",
+    "info":"Ariel es la protagonista de la película de Disney La Sirenita, lanzada en 1989. En la historia, Ariel es una sirena aventurera y curiosa que sueña con vivir en el mundo de los humanos. La película fue dirigida por Ron Clements y John Musker, y es una adaptación libre del cuento de hadas danés del mismo nombre de Hans Christian Andersen."
+
+},
+
+{
+    "id": "03",
+    "nombre": "Bambi",
+    "imagen":"imagenes/bambi.jpg",
+    "info":"Bambi es el protagonista de la película animada de Disney Bambi, lanzada en 1942, dirigida por David Hand. La historia sigue la vida de Bambi, un joven ciervo, desde su infancia hasta la madurez, mientras experimenta los desafíos y las alegrías de la vida en el bosque."
+
+},
+
+{
+    "id": "04",
+    "nombre": "Bella",
+    "imagen": "imagenes/bella.jpg",
+    "info":"Bella es la protagonista de la película de Disney La Bella y la Bestia, lanzada en 1991. Dirigida por Gary Trousdale y Kirk Wise, la película es una adaptación animada del cuento de hadas francés La Belle et la Bête. Bella es una joven inteligente y amante de los libros que vive en un pueblo francés."
+
+},
+
+{
+    "id": "05",
+    "nombre": "Blancanieves",
+    "imagen":"imagenes/blancanieves.jpg",
+    "info": "Blancanieves es la protagonista de la película animada de Disney Blancanieves y los siete enanitos, lanzada en 1937. Esta película fue la primera película animada de larga duración producida por Walt Disney y es una adaptación del cuento de hadas alemán Blancanieves de los Hermanos Grimm."
+
+},
+
+{
+    "id": "06",
+    "nombre": "Cenicienta",
+    "imagen":"imagenes/cenicienta.jpg",
+    "info": "Cenicienta es la protagonista de la película de Disney Cenicienta, lanzada en 1950. Dirigida por Clyde Geronimi y Wilfred Jackson, la película es una adaptación del cuento de hadas La Cenicienta de Charles Perrault."
+
+},
+
+
+
+{
+    "id": "07",
+    "nombre": "Dumbo",
+    "imagen":"imagenes/dumbo.jpg",
+    "info": "Dumbo es el protagonista de la película animada de Disney Dumbo, lanzada en 1941. La película fue dirigida por Ben Sharpsteen y producida por Walt Disney. Dumbo es un elefante de circo que nace con orejas enormes, haciéndolo objeto de burla y ridículo por parte de otros elefantes y miembros del circo."
+
+},
+
+{
+    "id": "08",
+    "nombre": "Simba",
+    "imagen":"imagenes/simba.jpg",
+    "info": "Simba es el protagonista de la película animada de Disney El Rey León, lanzada en 1994. Dirigida por Roger Allers y Rob Minkoff, la película cuenta la historia de Simba, un joven león que lucha por encontrar su lugar en el ciclo de la vida y reclamar su legítimo lugar como el rey de la Sabana."
+
+},
+
+{
+    "id": "09",
+    "nombre": "Maléfica",
+    "imagen":"imagenes/malefica.jpg",
+    "info": "Maléfica es una villana icónica de Disney que apareció por primera vez en la película animada La Bella Durmiente en 1959. Dirigida por Clyde Geronimi, la película está basada en el cuento de hadas homónimo de Charles Perrault."
+
+},
+
+
+{
+    "id": "10",
+    "nombre": "Peter Pan",
+    "imagen":"imagenes/peter-pan.jpg",
+    "info": "Peter Pan es el personaje principal de la obra teatral y la película animada de Disney Peter Pan. La historia original fue creada por el autor escocés J.M. Barrie y se centra en un niño que nunca crece y que vive en el mágico País de Nunca Jamás. La obra fue adaptada en una película animada por Walt Disney y lanzada en 1953."
+
+},
+
+{
+    "id": "11",
+    "nombre": "Jasmín",
+    "imagen":"imagenes/jazmin.jpg",
+    "info": "Jasmín es la princesa protagonista de la película de Disney Aladdín, lanzada en 1992. Dirigida por Ron Clements y John Musker. Jasmín es una princesa de la ficticia ciudad de Agrabah y es conocida por su valentía, independencia y deseo de experimentar la vida más allá de las murallas del palacio."
+
+},
+
+{
+    "id": "12",
+    "nombre": "Hércules",
+    "imagen":"imagenes/hercules.jpg",
+    "info": "Hércules es el protagonista de la película animada de Disney Hércules, lanzada en 1997. Dirigida por Ron Clements y John Musker, la película se basa en los mitos griegos y sigue la historia del semidiós Hércules, hijo de los dioses griegos Zeus y Hera. "
+
+}
+
+
+
+]
