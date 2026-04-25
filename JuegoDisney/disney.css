@@ -282,6 +282,7 @@ button:hover {
 
 
 /* FICHAS DE PERSONAJES */
+/* FICHAS DE PERSONAJES */
 .info-personajes {
     position: absolute;
     top: var(--top-escondido);
@@ -291,8 +292,8 @@ button:hover {
     width: 83%;
     padding: 1.2rem;
 
-    background-color: rgba(255, 255, 255, 0.97);
-    backdrop-filter: blur(18px);
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
 
     display: grid;
     grid-template-columns: repeat(4, 304px);
@@ -310,7 +311,7 @@ button:hover {
 
 .info-personajes[style*="top: 0"],
 .info-personajes[style*="top:0"] {
-    top: 15px !important;
+    top: 80px !important;
 }
 
 .rotate-container {
