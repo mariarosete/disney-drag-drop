@@ -28,7 +28,7 @@ body {
 /* TÍTULO PRINCIPAL */
 header h1 {
     text-align: center;
-    margin: 5px 15px 0;
+    margin: 10px 15px 5px;
     color: white;
     font-family: 'Dancing Script', cursive;
     font-size: 38px;
@@ -48,7 +48,7 @@ header h1 {
 }
 .contenedor {
     width: 100%;
-    min-height: 360px;
+    min-height: 420px;
     position: relative;
     display: flex;
     align-items: center;
@@ -148,7 +148,7 @@ header h1 {
     display: flex;
     align-items: center;
     justify-content: center; 
-    margin-top: -35px;
+   
 }
 
 /* BOTÓN REINICIO */
@@ -311,9 +311,8 @@ button:hover {
 
 .info-personajes[style*="top: 0"],
 .info-personajes[style*="top:0"] {
-    top: -55px !important;
+    top: 10px !important;
 }
-
 .rotate-container {
     position: relative;  
 }
