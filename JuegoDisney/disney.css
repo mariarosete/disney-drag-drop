@@ -712,3 +712,9 @@ button:hover {
         justify-content: flex-start !important;
     }
 }
+@media (max-width: 768px) {
+    .inicio[style] {
+        top: 0 !important;
+        transform: none !important;
+    }
+}
