@@ -310,9 +310,8 @@ button:hover {
 
 .info-personajes[style*="top: 0"],
 .info-personajes[style*="top:0"] {
-    top: 50px !important;
+    top: 15px !important;
 }
-
 
 .rotate-container {
     position: relative;  
