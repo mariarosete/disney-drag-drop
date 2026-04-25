@@ -457,7 +457,7 @@ button:hover {
 
     .inicio {
         position: fixed !important;
-        top: 170px !important;
+        top: 150px !important;
         left: 50% !important;
         transform: translateX(-50%) !important;
 
@@ -504,6 +504,12 @@ button:hover {
         align-items: center;
         gap: 18px;
         padding: 0;
+        transition: none !important;
+    }
+
+    .juego[style*="top: 0"],
+    .juego[style*="top:0"] {
+        top: 0 !important;
     }
 
     .resultado {
@@ -557,9 +563,17 @@ button:hover {
         width: 100%;
     }
 
+    .reinicio {
+        width: 100%;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 35px;
+    }
+
     .reinicio i {
-        font-size: 2.4em;
-        margin: 0 24px;
+        font-size: 2.6em;
+        margin: 0 !important;
     }
 
     .mensaje-victoria {
@@ -595,6 +609,12 @@ button:hover {
         border-radius: 14px;
         backdrop-filter: blur(10px);
         background-color: rgba(255, 255, 255, 0.75);
+        transition: none !important;
+    }
+
+    .info-personajes[style*="top: 0"],
+    .info-personajes[style*="top:0"] {
+        top: 110px !important;
     }
 
     .rotate-container {
@@ -648,7 +668,7 @@ button:hover {
     }
 
     .inicio {
-        top: 155px !important;
+        top: 140px !important;
         width: 86% !important;
         max-width: 320px !important;
         padding: 18px 14px !important;
@@ -691,13 +711,5 @@ button:hover {
 
     .rotate-container .ficha-front img {
         height: 125px;
-    }
-}
-
-/* EXTRA PARA QUE LAS FICHAS SALGAN ENCIMA EN MÓVIL */
-@media (max-width: 768px) {
-    .info-personajes[style*="top: 0"],
-    .info-personajes[style*="top:0"] {
-        top: 110px !important;
     }
 }
