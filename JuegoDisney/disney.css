@@ -291,7 +291,7 @@ button:hover {
     row-gap: 80px;
     column-gap: 10px;
     width: 83%;
-    margin: -30px auto 30px;
+    margin: 20px auto 30px;
     position: relative;
     top: -3000px;
     transition: top 2s ease;
@@ -564,8 +564,8 @@ button:hover {
 
     .reiniciar,
     .info {
-        width: 100%;
-        display: none;
+         width: auto;
+         display: none;
     }
 
     .reiniciar[style*="top: 0"],
@@ -574,17 +574,15 @@ button:hover {
     .info[style*="top:0"] {
         display: block;
     }
-
     .reinicio {
         width: 100%;
         max-width: 340px;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
-        gap: 50px;
+        gap: 75px;
         margin: 0 auto 15px;
     }
-
     .reinicio i {
         margin: 0 !important;
         position: static !important;
