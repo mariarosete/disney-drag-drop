@@ -435,22 +435,25 @@ button:hover {
     header h1 {
         font-size: 24px;
         line-height: 1.2;
-        margin: 18px 10px 12px;
+        margin: 16px 10px 10px;
+        text-align: center;
     }
 
     .global {
         width: 100%;
-        min-height: auto;
+        min-height: 100vh;
         height: auto;
         padding: 0 10px;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .contenedor {
         width: 100%;
+        min-height: calc(100vh - 80px);
         height: auto;
-        min-height: auto;
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         position: relative;
     }
 
@@ -460,16 +463,16 @@ button:hover {
         max-width: 340px;
         height: auto;
         min-height: auto;
-        margin: 18px auto;
-        padding: 18px 16px;
-        font-size: 0.9rem;
-        line-height: 1.25rem;
+        margin: 0 auto;
+        padding: 16px 14px;
+        font-size: 0.82rem;
+        line-height: 1.15rem;
         border-radius: 14px;
     }
 
     .inicio h1 {
-        font-size: 27px;
-        margin: 5px 0 18px;
+        font-size: 24px;
+        margin: 5px 0 14px;
     }
 
     .boton-div {
@@ -556,21 +559,32 @@ button:hover {
         min-height: 150px;
         padding: 22px;
         font-size: 1rem;
+        z-index: 9999;
     }
 
     .info-personajes {
+        position: fixed;
+        left: 50%;
+        top: -3000px;
+        transform: translateX(-50%);
+        z-index: 9999;
+
         width: 92%;
         max-width: 340px;
+        max-height: 82vh;
+        overflow-y: auto;
+
         padding: 12px;
         display: grid;
         grid-template-columns: 1fr;
         grid-auto-rows: 250px;
         row-gap: 22px;
         column-gap: 0;
-        margin: 25px auto 30px;
-        overflow: visible;
-        position: relative;
-        top: -3000px;
+        margin: 0 auto;
+
+        border-radius: 14px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.75);
     }
 
     .rotate-container {
@@ -620,20 +634,20 @@ button:hover {
 @media (max-width: 480px) {
     header h1 {
         font-size: 22px;
-        margin-top: 16px;
+        margin-top: 14px;
     }
 
     .inicio {
         max-width: 320px;
         width: 88%;
         padding: 16px 14px;
-        font-size: 0.82rem;
-        line-height: 1.15rem;
+        font-size: 0.8rem;
+        line-height: 1.12rem;
     }
 
     .inicio h1 {
-        font-size: 24px;
-        margin-bottom: 14px;
+        font-size: 23px;
+        margin-bottom: 12px;
     }
 
     .resultado,
@@ -656,8 +670,7 @@ button:hover {
     .info-personajes {
         max-width: 315px;
         grid-auto-rows: 235px;
-        margin: 20px auto 30px;
-        overflow: visible;
+        max-height: 80vh;
     }
 
     .rotate-container {
@@ -666,5 +679,13 @@ button:hover {
 
     .rotate-container .ficha-front img {
         height: 125px;
+    }
+    
+}
+/* EXTRA PARA QUE LAS FICHAS SALGAN ENCIMA EN MÓVIL */
+@media (max-width: 768px) {
+    .info-personajes[style*="top: 0"],
+    .info-personajes[style*="top:0"] {
+        top: 90px !important;
     }
 }
