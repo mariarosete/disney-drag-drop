@@ -291,7 +291,7 @@ button:hover {
     row-gap: 80px;
     column-gap: 10px;
     width: 83%;
-    margin: -80px auto 30px;
+    margin: -50px auto 30px;
     position: relative;
     top: -3000px;
     transition: top 2s ease;
