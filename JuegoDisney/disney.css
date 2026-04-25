@@ -282,7 +282,7 @@ button:hover {
 /* FICHAS DE PERSONAJES */
 .info-personajes {
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 1.2rem;
     display: grid;
     grid-template-columns: repeat(4, 304px);
@@ -291,7 +291,7 @@ button:hover {
     row-gap: 80px;
     column-gap: 10px;
     width: 83%;
-    margin: 45px auto 30px;
+    margin: 85px auto 30px;
     position: relative;
     top: -3000px;
     transition: top 2s ease;
