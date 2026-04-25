@@ -484,9 +484,12 @@ button:hover {
     }
 
     .boton-div {
-        min-height: auto;
-        margin: 12px 0 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
+
 
     .boton {
         width: auto;
@@ -563,17 +566,17 @@ button:hover {
         width: 100%;
     }
 
-    .reinicio {
+   .reinicio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
         width: 100%;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        gap: 35px;
     }
 
     .reinicio i {
-        font-size: 2.6em;
         margin: 0 !important;
+        font-size: 2.5em;
     }
 
     .mensaje-victoria {
@@ -711,5 +714,11 @@ button:hover {
 
     .rotate-container .ficha-front img {
         height: 125px;
+    }
+}
+/* OCULTAR INICIO CUANDO EMPIEZA EL JUEGO */
+@media (max-width: 768px) {
+    .inicio[style*="top: -"] {
+        display: none !important;
     }
 }
