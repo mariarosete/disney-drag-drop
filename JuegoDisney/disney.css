@@ -440,33 +440,43 @@ button:hover {
     }
 
     .global {
-    width: 100%;
-    min-height: auto;
-    height: auto;
-    padding: 0 10px;
-    justify-content: flex-start;
-}
+        width: 100%;
+        min-height: auto;
+        height: auto;
+        padding: 0 10px;
+        justify-content: flex-start;
+    }
 
-.contenedor {
-    width: 100%;
-    min-height: auto;
-    height: auto;
-    display: block;
-    position: relative;
-}
+    .contenedor {
+        width: 100%;
+        min-height: auto;
+        height: auto;
+        display: block;
+        position: relative;
+    }
 
-.inicio {
-    position: relative;
-    width: 88%;
-    max-width: 340px;
-    height: auto;
-    min-height: auto;
-    margin: 20px auto 25px;
-    padding: 18px 16px;
-    font-size: 0.85rem;
-    line-height: 1.2rem;
-    border-radius: 14px;
-}
+    .inicio {
+        position: fixed !important;
+        top: 170px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+
+        width: 86% !important;
+        max-width: 340px !important;
+        height: auto !important;
+        min-height: auto !important;
+
+        margin: 0 !important;
+        padding: 18px 16px !important;
+
+        font-size: 0.85rem;
+        line-height: 1.2rem;
+        border-radius: 14px;
+
+        z-index: 9998 !important;
+        display: block !important;
+        transition: none !important;
+    }
 
     .inicio h1 {
         font-size: 24px;
@@ -638,10 +648,10 @@ button:hover {
     }
 
     .inicio {
-        max-width: 320px;
-        width: 86%;
-        margin: 35px auto 25px;
-        padding: 18px 14px;
+        top: 155px !important;
+        width: 86% !important;
+        max-width: 320px !important;
+        padding: 18px 14px !important;
         font-size: 0.82rem;
         line-height: 1.15rem;
     }
@@ -689,32 +699,5 @@ button:hover {
     .info-personajes[style*="top: 0"],
     .info-personajes[style*="top:0"] {
         top: 110px !important;
-    }
-}
-@media (max-width: 768px) {
-    .inicio {
-        position: relative !important;
-        top: 0 !important;
-        left: auto !important;
-        right: auto !important;
-        bottom: auto !important;
-        transform: none !important;
-        transition: none !important;
-        margin: 15px auto 25px !important;
-        display: block !important;
-    }
-
-    .global,
-    .contenedor {
-        height: auto !important;
-        min-height: auto !important;
-        align-items: flex-start !important;
-        justify-content: flex-start !important;
-    }
-}
-@media (max-width: 768px) {
-    .inicio[style] {
-        top: 0 !important;
-        transform: none !important;
     }
 }
