@@ -92,7 +92,7 @@ header h1 {
     transform: translate(-50%, -50%);
     position: absolute;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.85);
     color: black;
     font-family: Arial, sans-serif;
     font-size: 1.3rem;
@@ -188,10 +188,11 @@ button:hover {
 .juego {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: flex-start;
     position: absolute;
     width: 100%;
-    gap: 20px;  
+    gap: 80px;
     top: var(--top-escondido);
     transition: top 2s ease;
 }
@@ -207,7 +208,8 @@ button:hover {
     background-color: rgba(255, 255, 255, 0.5);
     width: 480px;
     height: 650px; 
-    border-radius: 8px;    
+    border-radius: 8px;
+    margin-top: 0;
 }
 
 .nombres,
@@ -223,6 +225,10 @@ button:hover {
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 8px;   
+}
+
+.opciones {
+    margin-top: 0;
 }
 
 .nombres h1 {
