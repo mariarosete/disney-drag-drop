@@ -691,3 +691,27 @@ button:hover {
         top: 110px !important;
     }
 }
+@media (max-width: 768px) {
+    .global {
+        height: auto !important;
+        min-height: auto !important;
+        justify-content: flex-start !important;
+        padding-top: 0 !important;
+    }
+
+    .contenedor {
+        height: auto !important;
+        min-height: auto !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        padding-top: 0 !important;
+    }
+
+    .inicio {
+        position: relative !important;
+        top: 0 !important;
+        left: auto !important;
+        transform: none !important;
+        margin: 15px auto 25px !important;
+    }
+}
