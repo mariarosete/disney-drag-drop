@@ -488,8 +488,9 @@ button:hover {
         justify-content: center;
         align-items: center;
         gap: 20px;
+        min-height: auto;
+        margin: 12px 0 5px;
     }
-
 
     .boton {
         width: auto;
@@ -564,20 +565,30 @@ button:hover {
     .reiniciar,
     .info {
         width: 100%;
+        display: none;
     }
 
-  .reinicio {
+    .reiniciar[style*="top: 0"],
+    .reiniciar[style*="top:0"],
+    .info[style*="top: 0"],
+    .info[style*="top:0"] {
+        display: block;
+    }
+
+    .reinicio {
         width: 100%;
+        max-width: 340px;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
-        gap: 45px;
+        gap: 50px;
         margin: 0 auto 15px;
     }
 
     .reinicio i {
         margin: 0 !important;
         position: static !important;
+        font-size: 2.5em;
     }
 
     .mensaje-victoria {
@@ -659,6 +670,10 @@ button:hover {
     .nombre-opcion:hover {
         font-size: 14px;
     }
+
+    .inicio[style*="top: -"] {
+        display: none !important;
+    }
 }
 
 /* ========================= */
@@ -702,6 +717,11 @@ button:hover {
         font-size: 13px;
     }
 
+    .reinicio {
+        max-width: 315px;
+        gap: 45px;
+    }
+
     .info-personajes {
         width: 84%;
         max-width: 300px;
@@ -715,11 +735,5 @@ button:hover {
 
     .rotate-container .ficha-front img {
         height: 125px;
-    }
-}
-/* OCULTAR INICIO CUANDO EMPIEZA EL JUEGO */
-@media (max-width: 768px) {
-    .inicio[style*="top: -"] {
-        display: none !important;
     }
 }
