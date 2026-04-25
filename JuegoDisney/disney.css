@@ -291,8 +291,8 @@ button:hover {
     width: 83%;
     padding: 1.2rem;
 
-    background-color: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.97);
+    backdrop-filter: blur(18px);
 
     display: grid;
     grid-template-columns: repeat(4, 304px);
@@ -310,20 +310,9 @@ button:hover {
 
 .info-personajes[style*="top: 0"],
 .info-personajes[style*="top:0"] {
-    top: 60px !important;
+    top: 50px !important;
 }
 
-.info-personajes::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 150px;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    z-index: -1;
-}
 
 .rotate-container {
     position: relative;  
