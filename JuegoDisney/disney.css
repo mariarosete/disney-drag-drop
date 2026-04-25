@@ -40,13 +40,12 @@ header h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
-    min-height: 75vh;
+    min-height: auto;
     width: 100%;
     padding: 0 15px;
 }
-
 .contenedor {
     width: 100%;
     min-height: 420px;
@@ -281,7 +280,7 @@ button:hover {
 }
 
 
-/* FICHAS DE PERSONAJES */
+
 /* FICHAS DE PERSONAJES */
 .info-personajes {
     position: absolute;
@@ -311,7 +310,7 @@ button:hover {
 
 .info-personajes[style*="top: 0"],
 .info-personajes[style*="top:0"] {
-    top: -15px !important;
+    top: 10px !important;
 }
 
 .rotate-container {
