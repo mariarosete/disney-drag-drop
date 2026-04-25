@@ -285,13 +285,15 @@ button:hover {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 1.2rem;
     display: grid;
-    grid-template-columns: repeat(4, 304px); 
+    grid-template-columns: repeat(4, 304px);
     grid-auto-rows: 240px;
     justify-content: center;
-    row-gap: 80px; 
+    row-gap: 80px;
     column-gap: 10px;
     width: 83%;
-    margin: 420px auto 30px;
+
+    margin: -120px auto 30px;
+
     position: relative;
     top: -3000px;
     transition: top 2s ease;
