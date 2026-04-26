@@ -2,9 +2,7 @@
 
 ![Banner Juego Disney](https://github.com/mariarosete/disney-drag-drop/blob/main/screenshots/disney.png?raw=true)
 
-Proyecto frontend desarrollado con **HTML, CSS y JavaScript (Vanilla)**, centrado en la implementación de **Drag & Drop**, lógica de juego, carga dinámica de datos y experiencia de usuario.
-
-El proyecto consiste en un **juego interactivo** donde el usuario debe asociar correctamente personajes de Disney con sus nombres, recibiendo feedback visual inmediato y pudiendo consultar información adicional de cada personaje.
+Aplicación web interactiva desarrollada con JavaScript que implementa funcionalidades de Drag & Drop, validación visual y manipulación dinámica del DOM.
 
 ---
 ## 🌐 Aplicación en funcionamiento
