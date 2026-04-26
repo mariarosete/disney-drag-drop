@@ -16,10 +16,12 @@ Puedes probar el juego directamente en tu navegador:
 📱 Aplicación responsive, adaptada a dispositivos móviles y escritorio.
 
 ---
-
 ## 🎥 Demo en vídeo
 
-[Ver demo en vídeo](https://mariarosete.vercel.app/disney.mp4)
+Puedes ver el funcionamiento de la aplicación aquí:
+
+👉 https://mariarosete.vercel.app/disney.mp4
+
 
 ---
 
