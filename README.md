@@ -7,6 +7,22 @@ Proyecto frontend desarrollado con **HTML, CSS y JavaScript (Vanilla)**, centrad
 El proyecto consiste en un **juego interactivo** donde el usuario debe asociar correctamente personajes de Disney con sus nombres, recibiendo feedback visual inmediato y pudiendo consultar información adicional de cada personaje.
 
 ---
+## 🌐 Aplicación en funcionamiento
+
+Puedes probar el juego directamente en tu navegador:
+
+👉 https://disney-drag-drop.vercel.app/
+
+📱 Aplicación responsive, adaptada a dispositivos móviles y escritorio.
+
+---
+
+## 🎥 Demo en vídeo
+
+[Ver demo en vídeo](https://mariarosete.vercel.app/disney.mp4)
+
+---
+
 
 ## ✨ Características principales
 
@@ -99,21 +115,6 @@ El proyecto consiste en un **juego interactivo** donde el usuario debe asociar c
 
 ---
 
-## 🌐 Aplicación en funcionamiento
-
-Puedes probar el juego directamente en tu navegador:
-
-👉 https://disney-drag-drop.vercel.app/
-
-📱 Aplicación responsive, adaptada a dispositivos móviles y escritorio.
-
----
-
-## 🎥 Demo en vídeo
-
-[Ver demo en vídeo](https://mariarosete.vercel.app/disney.mp4)
-
----
 
 ## 📩 Contacto
 
