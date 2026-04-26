@@ -99,17 +99,19 @@ El proyecto consiste en un **juego interactivo** donde el usuario debe asociar c
 
 ---
 
-## 💻 Cómo ejecutar el proyecto
+## 🌐 Aplicación en funcionamiento
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/mariarosete/disney-drag-drop.git
-   ```
+Puedes probar el juego directamente en tu navegador:
 
+👉 https://disney-drag-drop.vercel.app/
 
- 2. Abre el archivo index.html en tu navegador (o usa Live Server en VS Code).`
+📱 Aplicación responsive, adaptada a dispositivos móviles y escritorio.
 
- 3. ¡Disfruta del juego! 🎉
+---
+
+## 🎥 Demo en vídeo
+
+[Ver demo en vídeo](https://mariarosete.vercel.app/disney.mp4)
 
 ---
 
