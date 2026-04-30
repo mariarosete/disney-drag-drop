@@ -30,7 +30,7 @@ Puedes ver el funcionamiento de la aplicación aquí:
 ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
 
 ---
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - Drag & Drop con la API nativa de JavaScript  
 - Validación visual de aciertos y errores  
@@ -40,7 +40,7 @@ Puedes ver el funcionamiento de la aplicación aquí:
 
 ---
 
-## 🧠 Aspectos técnicos
+## Aspectos técnicos
 
 - Uso de eventos: `dragstart`, `dragover`, `drop`  
 - Manipulación del DOM  
@@ -48,7 +48,7 @@ Puedes ver el funcionamiento de la aplicación aquí:
 - Lógica de validación y estado del juego  
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 - Practicar **JavaScript Vanilla**  
 - Implementar la **Drag & Drop API**  
